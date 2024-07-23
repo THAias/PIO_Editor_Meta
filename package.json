@@ -1,7 +1,7 @@
 {
     "name": "@thaias/pio_editor_meta",
     "description": "Meta repository for PIO-editor project",
-    "version": "1.1.7",
+    "version": "1.1.9",
     "exports": {
         ".": {
             "types": "./dist/types/index.d.js",
@@ -44,14 +44,14 @@
         "uuid": "^10.0.0"
     },
     "devDependencies": {
-        "@testing-library/jest-dom": "^6.4.6",
+        "@testing-library/jest-dom": "^6.4.7",
         "@trivago/prettier-plugin-sort-imports": "^4.3.0",
         "@types/jest": "^29.5.12",
         "@types/lodash": "^4.17.7",
         "@types/node": "^20.14.11",
         "@types/uuid": "^10.0.0",
-        "@typescript-eslint/eslint-plugin": "^7.16.1",
-        "@typescript-eslint/parser": "^7.16.1",
+        "@typescript-eslint/eslint-plugin": "^7.17.0",
+        "@typescript-eslint/parser": "^7.17.0",
         "create-ts-index": "^1.14.0",
         "eslint": "^8.56.0",
         "eslint-config-prettier": "^9.1.0",
@@ -76,7 +76,7 @@
         "rimraf": "^6.0.1",
         "ts-jest": "^29.2.3",
         "ts-node": "^10.9.2",
-        "typescript": "^5.5.3"
+        "typescript": "^5.5.4"
     },
     "lint-staged": {
         "{src,tests}/**/*.{ts,js,json,md}": "npm run prettier:fix",

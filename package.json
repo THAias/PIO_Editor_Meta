@@ -1,7 +1,7 @@
 {
     "name": "@thaias/pio_editor_meta",
     "description": "Meta repository for PIO-editor project",
-    "version": "1.1.9",
+    "version": "1.2.0",
     "exports": {
         ".": {
             "types": "./dist/types/index.d.js",
